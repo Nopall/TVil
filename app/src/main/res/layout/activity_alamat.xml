@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@color/material_drawer_background"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/material_drawer_background">
+
+            <ImageButton
+                android:id="@+id/btnKembali"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_32sdp"
+                android:src="@mipmap/icon_back"
+                android:background="@color/material_drawer_background"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DETAIL PENGIRIMAN"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="#FFF"
+                android:paddingLeft="@dimen/_43sdp"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:layout_marginRight="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43sdp"
+            android:src="@drawable/ic_stepbayar"
+            />
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:paddingLeft="@dimen/_40sdp"
+            android:paddingRight="@dimen/_40sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:id="@+id/radioGroup">
+
+                <RadioButton
+                    android:id="@+id/rButton1"
+                    android:layout_width="match_parent"
+                    android:checked="false"
+                    android:layout_height="wrap_content"
+                    style="@style/radionbutton"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:paddingLeft="@dimen/_5sdp"
+                    android:text="Alamat yang sudah terdaftar di akun"
+                    android:textColor="@color/black"/>
+
+                <RadioButton
+                    android:id="@+id/rButton2"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:checked="true"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Lain"
+                    android:paddingLeft="@dimen/_5sdp"
+
+                    style="@style/radionbutton"
+                    android:textColor="@color/black"
+                    android:textColorLink="@color/md_pink_500" />
+
+            </RadioGroup>
+
+            <LinearLayout
+                android:id="@+id/alamatLain"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tvNama"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Lengkap *"
+                    android:textColor="#000"/>
+
+                <EditText
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bgedittext"
+                    android:padding="@dimen/_5sdp"
+                    android:textColorHint="@color/material_drawer_secondary_text"
+                    android:textColor="@color/black"
+                    android:id="@+id/etNama" />
+
+                <TextView
+                    android:id="@+id/tvAlamat"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alamat Lengkap *"
+                    android:textColor="#000"/>
+
+                <EditText
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_gravity="top"
+                    android:padding="@dimen/_5sdp"
+                    android:gravity="top"
+                    android:layout_height="@dimen/_90sdp"
+                    android:inputType="textMultiLine"
+                    android:textColor="@color/black"
+                    android:background="@drawable/bgedittext"
+                    android:id="@+id/etAlamat" />
+
+                <LinearLayout
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/spnProvinsi"
+                        android:background="@drawable/bgspinner2"
+                        android:layout_width="match_parent"
+                        android:dropDownWidth="fill_parent"
+                        android:layout_height="match_parent"/>
+
+                    <Spinner
+                        android:id="@+id/spnKota"
+                        android:background="@drawable/bgspinner2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:dropDownWidth="fill_parent"
+                        android:layout_marginTop="@dimen/_10sdp"/>
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvPos"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kode Pos *"
+                    android:textColor="#000"/>
+
+                <EditText
+                    android:background="@drawable/bgedittext"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:id="@+id/etPos" />
+
+                <TextView
+                    android:id="@+id/tvTelepon"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nomor Telepon *"
+                    android:textColor="#000"/>
+
+                <EditText
+                    android:background="@drawable/bgedittext"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:padding="@dimen/_5sdp"
+                    android:textColor="@color/black"
+                    android:id="@+id/etTelepon" />
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnLanjutAlamat"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_gravity="center|bottom"
+                android:layout_width="@dimen/_150sdp"
+                android:layout_height="@dimen/_30sdp"
+                android:textColor="#fff"
+                android:text="SELANJUTNYA"
+                android:background="@drawable/button_merah"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

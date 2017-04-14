@@ -1,0 +1,584 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context="com.tehvilla.apps.tehvilla.ContactFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:paddingLeft="@dimen/_6sdp"
+            android:paddingRight="@dimen/_20sdp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/btn_ubahProfil"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_25sdp"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_110sdp"
+                android:background="#FFF"
+                android:src="@drawable/button_ubahprofil"
+                android:scaleType="centerCrop"/>
+
+            <ImageButton
+                android:id="@+id/btn_ubahSandi"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginLeft="@dimen/_140sdp"
+                android:layout_width="@dimen/_130sdp"
+                android:layout_height="@dimen/_110sdp"
+                android:background="#FFF"
+                android:src="@drawable/button_ubahsandi2"
+                android:scaleType="centerCrop"/>
+
+            <!--Halaman Edit Profile -->
+
+            <RelativeLayout
+                android:id="@+id/halamanProfil"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imgFoto"
+                    android:layout_marginTop="@dimen/_140sdp"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:background="#FFF"
+                    android:src="@drawable/ic_fotoprofil"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:id="@+id/txtNama"
+                    android:layout_marginTop="@dimen/_150sdp"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:text="JESSICA SMITH"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginTop="@dimen/_220sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="Gender"/>
+
+
+                <ImageButton
+                    android:id="@+id/btngenderPerempuan"
+                    android:layout_marginTop="@dimen/_210sdp"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:scaleType="centerCrop"
+                    android:background="@drawable/ic_female"/>
+
+                <ImageButton
+                    android:id="@+id/btngenderLaki"
+                    android:layout_marginTop="@dimen/_210sdp"
+                    android:layout_marginLeft="@dimen/_140sdp"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:scaleType="centerCrop"
+                    android:background="#FFF"
+                    android:src="@drawable/ic_male"/>
+
+                <ImageButton
+                    android:id="@+id/btngenderPerempuanOff"
+                    android:layout_marginTop="@dimen/_210sdp"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:scaleType="centerCrop"
+                    android:visibility="invisible"
+                    android:background="@drawable/genperempuanoff"/>
+
+                <ImageButton
+                    android:id="@+id/btngenderLakiOff"
+                    android:layout_marginTop="@dimen/_210sdp"
+                    android:layout_marginLeft="@dimen/_140sdp"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:scaleType="centerCrop"
+                    android:background="#FFF"
+                    android:visibility="invisible"
+                    android:src="@drawable/genlakioff"/>
+
+                <TextView
+                    android:id="@+id/txttgl"
+                    android:layout_marginTop="@dimen/_260sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="Tanggal Lahir"/>
+
+                <EditText
+                    android:id="@+id/etLahir"
+                    android:layout_marginTop="@dimen/_255sdp"
+                    android:layout_marginLeft="@dimen/_120sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:focusable="false"
+                    android:textColor="@color/black"
+                    android:background="@drawable/bgedittext"
+                    android:padding="@dimen/_5sdp"
+                    android:inputType="date"/>
+
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_290sdp"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tvNama"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Lengkap *"
+                        android:textColor="@color/black" />
+
+                    <EditText
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/bgedittext"
+                        android:padding="@dimen/_5sdp"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
+                        android:id="@+id/etNama" />
+
+                    <TextView
+                        android:id="@+id/tvAlamat"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alamat Lengkap *"
+                        android:textColor="#000"/>
+
+                    <EditText
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_width="match_parent"
+                        android:layout_gravity="top"
+                        android:gravity="top"
+                        android:padding="@dimen/_5sdp"
+                        android:layout_height="@dimen/_90sdp"
+                        android:inputType="textMultiLine"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
+                        android:background="@drawable/bgedittext"
+                        android:id="@+id/etAlamat" />
+
+                    <LinearLayout
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:weightSum="2">
+
+                        <Spinner
+                            android:id="@+id/spnProvinsi"
+                            android:background="@drawable/bgspinner2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                        <Spinner
+                            android:id="@+id/spnKota"
+                            android:background="@drawable/bgspinner2"
+                            android:layout_marginTop="@dimen/_8sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tvPos"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Pos *"
+                        android:textColor="#000"/>
+
+                    <EditText
+                        android:background="@drawable/bgedittext"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/_5sdp"
+                        android:inputType="number"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
+                        android:id="@+id/etPos" />
+
+                    <TextView
+                        android:id="@+id/tvTelepon"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nomor Telepon *"
+                        android:textColor="#000"/>
+
+                    <EditText
+                        android:background="@drawable/bgedittext"
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:inputType="phone"
+                        android:padding="@dimen/_5sdp"
+                        android:textColorHint="@color/black"
+                        android:textColor="@color/black"
+                        android:id="@+id/etTelepon" />
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="* Wajib Diisi"
+                        android:textColor="#FF0000"/>
+
+                    <Button
+                        android:id="@+id/btnSimpan"
+                        android:layout_marginLeft="@dimen/_20sdp"
+                        android:layout_marginTop="@dimen/_12sdp"
+                        android:layout_width="@dimen/_130sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:background="@drawable/button_merah"
+                        android:text="SIMPAN"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="@dimen/_30sdp"/>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <!--Halaman Edit Profile-->
+
+
+            <!--Halaman Lihat Profile -->
+            <RelativeLayout
+                android:id="@+id/LihatProfil"
+                android:visibility="invisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnEditProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/_3sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/lihatTelepon"
+                    android:background="@drawable/button_merah"
+                    android:text="EDIT"/>
+
+                <ImageView
+                    android:id="@+id/lihatFoto"
+                    android:layout_marginTop="@dimen/_140sdp"
+                    android:layout_marginLeft="@dimen/_30sdp"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:background="#FFF"
+                    android:src="@drawable/ic_fotoprofil"
+                    android:scaleType="centerCrop"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_25sdp"
+                    android:id="@+id/LihatNama"
+                    android:layout_marginTop="@dimen/_150sdp"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:text=""
+                    android:textColor="#000"
+                    android:textSize="@dimen/_16sdp"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_marginTop="@dimen/_220sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="Gender"/>
+
+
+                <ImageButton
+                    android:id="@+id/GenPerempuan"
+                    android:layout_marginTop="@dimen/_210sdp"
+                    android:layout_marginLeft="@dimen/_100sdp"
+                    android:layout_width="@dimen/_30sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:scaleType="centerCrop"
+                    android:background="#FFF"
+                    android:src="@drawable/ic_female"/>
+
+
+                <TextView
+                    android:id="@+id/txttgl1"
+                    android:layout_marginTop="@dimen/_257sdp"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:text="Tanggal Lahir"/>
+
+                <TextView
+                    android:id="@+id/TampilLahir"
+                    android:layout_below="@+id/txttgl1"
+                    android:layout_marginLeft="@dimen/_35sdp"
+                    android:layout_marginTop="@dimen/_4sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/grey"
+                    android:text="16-08-1998"/>
+
+                    <TextView
+                        android:id="@+id/LihattvNama"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/_18sdp"
+                        android:text="Nama Lengkap"
+                        android:layout_below="@+id/TampilLahir"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:layout_below="@+id/LihattvNama"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:text="Jesicca Smith"
+                        android:id="@+id/lihatNamaLengkap" />
+
+                    <TextView
+                        android:id="@+id/lihatTvAlamat"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Alamat Lengkap"
+                        android:layout_marginTop="@dimen/_18sdp"
+                        android:layout_below="@id/lihatNamaLengkap"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_width="wrap_content"
+                        android:layout_gravity="top"
+                        android:gravity="top"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:layout_below="@id/lihatTvAlamat"
+                        android:text="Jl. Karangan Jaya 8/7"
+                        android:id="@+id/lihatAlamat" />
+
+                        <TextView
+                            android:id="@+id/sp1"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_18sdp"
+                            android:layout_marginLeft="@dimen/_35sdp"
+                            android:text="Provinsi :"
+                            android:layout_below="@id/lihatAlamat"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/lihatProvinsi"
+                            android:layout_marginRight="@dimen/_5sdp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/sp1"
+                            android:layout_marginLeft="@dimen/_35sdp"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:text="Jawa Timur"
+                            android:textColor="@color/grey"/>
+
+                        <TextView
+                            android:id="@+id/spKota"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kota :"
+                            android:layout_marginTop="@dimen/_18sdp"
+                            android:layout_below="@id/lihatProvinsi"
+                            android:layout_marginLeft="@dimen/_35sdp"
+                            android:textColor="@color/black"/>
+
+                        <TextView
+                            android:id="@+id/lihatKota"
+                            android:layout_below="@id/spKota"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Surabaya"
+                            android:layout_marginTop="@dimen/_4sdp"
+                            android:layout_marginLeft="@dimen/_35sdp"
+                            android:textColor="@color/grey"/>
+
+                    <TextView
+                        android:id="@+id/LihattvPos"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kode Pos"
+                        android:layout_marginTop="@dimen/_18sdp"
+                        android:layout_below="@+id/lihatKota"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:layout_below="@+id/LihattvPos"
+                        android:text="60227"
+                        android:id="@+id/lihatPos" />
+
+                    <TextView
+                        android:id="@+id/LihattvTelepon"
+                        android:layout_marginTop="@dimen/_18sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nomor Telepon"
+                        android:layout_below="@+id/lihatPos"
+                        android:textColor="#000"/>
+
+                    <TextView
+                        android:layout_marginBottom="@dimen/_8sdp"
+                        android:layout_marginLeft="@dimen/_35sdp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey"
+                        android:text="085895533053"
+                        android:layout_marginTop="@dimen/_4sdp"
+                        android:layout_below="@id/LihattvTelepon"
+                        android:id="@+id/lihatTelepon" />
+
+            </RelativeLayout>
+
+            <!--Halaman Lihat Profile-->
+
+            <!--Halaman Sandi-->
+            <RelativeLayout
+                android:id="@+id/halamanSandi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/_30sdp"
+                android:paddingRight="@dimen/_30sdp"
+                android:visibility="visible"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <EditText
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_190sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Kata Sandi Baru"
+                    android:background="@drawable/bgedittext2"
+                    android:inputType="textPassword"
+                    android:drawableLeft="@mipmap/icon_kata_sandi"
+                    android:textColorHint="@color/material_drawer_secondary_text"
+                    android:textColor="#000"
+                    android:padding="@dimen/_5sdp"
+                    android:id="@+id/new_password1" />
+
+                <EditText
+                    android:id="@+id/new_password2"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:layout_marginTop="@dimen/_230sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_5sdp"
+                    android:inputType="textPassword"
+                    android:background="@drawable/bgedittext2"
+                    android:hint="Ulangi Kata Sandi Baru"
+                    android:drawableLeft="@mipmap/icon_kata_sandi"
+                    android:textColorHint="@color/material_drawer_secondary_text"
+                    android:textColor="#000"/>
+
+                <TextView
+                    android:layout_marginTop="@dimen/_270sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="* Wajib Diisi"
+                    android:textColor="#FF0000"/>
+
+                <Button
+                    android:id="@+id/btnSimpanSandi"
+                    android:layout_marginLeft="@dimen/_50sdp"
+                    android:layout_marginTop="@dimen/_330sdp"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:background="@drawable/btn_simpan"
+                    android:layout_marginBottom="@dimen/_30sdp"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:shadowColor="#FF0000"
+                    android:background="@drawable/bgedittext2"
+                    android:hint="Kata Sandi"
+                    android:inputType="textPassword"
+                    android:drawablePadding="@dimen/_8sdp"
+                    android:drawableLeft="@mipmap/icon_kata_sandi"
+                    android:textColorHint="@color/material_drawer_secondary_text"
+                    android:textColor="#000"
+                    android:padding="@dimen/_5sdp"
+                    android:layout_alignBottom="@+id/new_password1"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginBottom="46dp"
+                    android:id="@+id/old_password" />
+            </RelativeLayout>
+            <!--Halaman Sandi-->
+
+            <TextView
+                android:id="@+id/tvPeringatan"
+                android:visibility="invisible"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/_200sdp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_20sdp"
+                android:textAlignment="center"
+                android:text="Anda Tidak Memiliki Hak\nAkses Untuk Mengganti\nPassword"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+
+</FrameLayout>

@@ -1,0 +1,74 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tehvilla.apps.tehvilla.ProdukFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:orientation="vertical"
+        android:background="@drawable/background_produk">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_106sdp"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:weightSum="1">
+
+            <ImageButton
+                android:id="@+id/btnurutkan"
+                android:layout_width="@dimen/_23sdp"
+                android:layout_height="@dimen/_22sdp"
+                android:background="@drawable/ic_urutkan"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/_30sdp"
+                android:textSize="@dimen/_12sdp"
+                android:paddingTop="@dimen/_7sdp"
+                android:text="  Urutkan"/>
+
+        </LinearLayout>
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipeRefreshLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/ListProduk" />
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+
+        <ProgressBar
+            android:id="@+id/progress_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvKosongProduk"
+        android:layout_marginTop="@dimen/_220sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20sdp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"/>
+</FrameLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_intro_pertama"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:orientation="vertical">
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="9">
+
+    <!--<com.daimajia.slider.library.SliderLayout-->
+        <!--android:id="@+id/slider"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/_145sdp" >-->
+        <!--<com.daimajia.slider.library.Indicators.PagerIndicator-->
+            <!--android:id="@+id/custom_indicator"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/_11sdp"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--android:layout_marginBottom="@dimen/_15sdp"-->
+            <!--android:gravity="center"-->
+            <!--custom:selected_color="#7c7c7c"-->
+            <!--custom:unselected_color="#cccccc"-->
+            <!--custom:shape="oval"-->
+            <!--custom:selected_padding_left="@dimen/_3sdp"-->
+            <!--custom:selected_padding_right="@dimen/_3sdp"-->
+            <!--custom:unselected_padding_left="@dimen/_3sdp"-->
+            <!--custom:unselected_padding_right="@dimen/_3sdp"-->
+            <!--custom:selected_width="@dimen/_8sdp"-->
+            <!--custom:selected_height="@dimen/_8sdp"-->
+            <!--custom:unselected_width="@dimen/_6sdp"-->
+            <!--custom:unselected_height="@dimen/_6sdp"-->
+            <!--/>-->
+    <!--</com.daimajia.slider.library.SliderLayout>-->
+
+</RelativeLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:weightSum="2"
+    android:orientation="horizontal">
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="REGISTER"
+        android:textColor="#000"
+        android:background="@drawable/btn_intro"/>
+    <Button
+        android:id="@+id/btn_lewati"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:text="LEWATI"
+        android:textColor="#000"
+        android:background="@drawable/btn_intro"/>
+</LinearLayout>
+
+</LinearLayout>
+
+

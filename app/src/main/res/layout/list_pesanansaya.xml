@@ -1,0 +1,320 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/Linearexpand"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:paddingLeft="@dimen/_20sdp"
+                    android:paddingRight="@dimen/_3sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_60sdp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="@dimen/_180sdp"
+                        android:layout_height="@dimen/_40sdp"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/nomorOrder"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/black"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/_11sdp"
+                            android:text="Nomor ID Order : 20617292"/>
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/_3sdp"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:weightSum="5"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:id="@+id/tglPesanan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/material_drawer_secondary_text"
+                                android:text="Date : 25/12/2016"
+                                android:textSize="@dimen/_9ssp"/>
+
+                            <TextView
+                                android:id="@+id/jmlPesanan"
+                                android:textAlignment="gravity"
+                                android:gravity="right"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginLeft="@dimen/_25sdp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:textColor="@color/material_drawer_secondary_text"
+                                android:text="2 Barang"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <Button
+                        android:id="@+id/btnstatus"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/btn_proses"/>
+
+                    <Button
+                        android:id="@+id/btnexpand1"
+                        android:layout_marginTop="@dimen/_6sdp"
+                        android:layout_marginLeft="@dimen/_8sdp"
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:background="@drawable/ic_psnsaya"/>
+
+                </LinearLayout>
+
+
+                <com.github.aakira.expandablelayout.ExpandableRelativeLayout
+                    android:id="@+id/expandableLayout1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    app:ael_duration="100"
+                    app:ael_orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <android.support.v7.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/_8sdp"
+                            android:layout_marginBottom="@dimen/_2sdp"
+                            android:id="@+id/recylerview_detail">
+
+                        </android.support.v7.widget.RecyclerView>
+
+                        <LinearLayout
+                            android:layout_marginTop="@dimen/_8sdp"
+                            android:layout_marginBottom="@dimen/_16sdp"
+                            android:background="#f5f0f0"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/_20sdp"
+                            android:orientation="vertical">
+
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center"
+                                android:orientation="horizontal">
+                                <TextView
+                                    android:id="@+id/totalhargatext"
+                                    android:textAlignment="center"
+                                    android:gravity="center"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="TOTAL"
+                                    android:textColor="@color/black"/>
+
+                                <TextView
+                                    android:id="@+id/totalharga"
+                                    android:textAlignment="center"
+                                    android:gravity="center"
+                                    android:textStyle="bold"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="@dimen/_35sdp"
+                                    android:text="Rp.280.000"
+                                    android:textColor="@color/md_red_A400"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <!--<ImageView-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="@dimen/_110sdp"-->
+                        <!--android:src="@drawable/stepper_psn"/>-->
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:paddingBottom="@dimen/_5sdp">
+
+                            <!--Text View Tanggal Stepper-->
+                            <View
+                                android:id="@+id/garis1"
+                                android:layout_width="@dimen/_1sdp"
+                                android:visibility="invisible"
+                                android:layout_height="@dimen/_87sdp"
+                                android:layout_marginTop="@dimen/_7sdp"
+                                android:layout_marginLeft="@dimen/_108sdp"
+                                android:background="@color/material_drawer_secondary_text"
+                                />
+
+                            <View
+                                android:id="@+id/garis2"
+                                android:visibility="visible"
+                                android:layout_width="@dimen/_1sdp"
+                                android:layout_height="@dimen/_56sdp"
+                                android:layout_marginTop="@dimen/_8sdp"
+                                android:layout_marginLeft="@dimen/_108sdp"
+                                android:background="@color/material_drawer_secondary_text"
+                                />
+
+                            <TextView
+                                android:id="@+id/tgl_orderDiTerima"
+                                android:layout_marginLeft="@dimen/_52sdp"
+                                android:layout_width="@dimen/_50sdp"
+                                android:textSize="@dimen/_8sdp"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/material_drawer_secondary_text"/>
+
+                            <TextView
+                                android:id="@+id/tgl_konfirmDiTerima"
+                                android:layout_marginLeft="@dimen/_52sdp"
+                                android:layout_width="@dimen/_50sdp"
+                                android:textSize="@dimen/_8ssp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tgl_orderDiTerima"
+                                android:layout_marginTop="@dimen/_10sdp"
+                                android:textColor="@color/material_drawer_secondary_text"/>
+
+                            <TextView
+                                android:id="@+id/tgl_Pengiriman"
+                                android:layout_marginLeft="@dimen/_52sdp"
+                                android:layout_width="@dimen/_50sdp"
+                                android:textSize="@dimen/_8sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tgl_konfirmDiTerima"
+                                android:layout_marginTop="@dimen/_9sdp"
+                                android:textColor="@color/material_drawer_secondary_text"/>
+
+                            <TextView
+                                android:id="@+id/tgl_terkirim"
+                                android:layout_marginLeft="@dimen/_52sdp"
+                                android:layout_width="@dimen/_50sdp"
+                                android:textSize="@dimen/_8sdp"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/tgl_Pengiriman"
+                                android:layout_marginTop="@dimen/_7sdp"
+                                android:textColor="@color/material_drawer_secondary_text"/>
+
+                            <ImageView
+                                android:id="@+id/imgOrderDiterima"
+                                android:layout_width="@dimen/_11sdp"
+                                android:layout_height="@dimen/_11sdp"
+                                android:background="@drawable/image_belum"
+                                android:layout_marginLeft="@dimen/_1sdp"
+                                android:layout_toRightOf="@+id/tgl_orderDiTerima"/>
+
+                            <ImageView
+                                android:id="@+id/imgKonfirmDiterima"
+                                android:layout_width="@dimen/_11sdp"
+                                android:layout_height="@dimen/_11sdp"
+                                android:background="@drawable/image_belum"
+                                android:layout_marginLeft="@dimen/_1sdp"
+                                android:layout_marginTop="@dimen/_17sdp"
+                                android:layout_toRightOf="@+id/tgl_konfirmDiTerima"
+                                android:layout_below="@+id/imgOrderDiterima"/>
+
+                            <ImageView
+                                android:id="@+id/imgPengiriman"
+                                android:layout_width="@dimen/_11sdp"
+                                android:layout_height="@dimen/_11sdp"
+                                android:background="@drawable/image_belum"
+                                android:layout_marginLeft="@dimen/_1sdp"
+                                android:layout_marginTop="@dimen/_17sdp"
+                                android:layout_toRightOf="@+id/tgl_Pengiriman"
+                                android:layout_below="@+id/imgKonfirmDiterima"/>
+
+                            <ImageView
+                                android:id="@+id/imgTerkirim"
+                                android:layout_width="@dimen/_11sdp"
+                                android:layout_height="@dimen/_11sdp"
+                                android:background="@drawable/image_belum"
+                                android:layout_marginLeft="@dimen/_1sdp"
+                                android:layout_marginTop="@dimen/_17sdp"
+                                android:layout_toRightOf="@+id/tgl_terkirim"
+                                android:layout_below="@+id/imgPengiriman"/>
+
+                            <TextView
+                                android:id="@+id/tv1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_9sdp"
+                                android:text="Order Diterima"
+                                android:layout_marginLeft="@dimen/_18sdp"
+                                android:layout_alignLeft="@+id/imgOrderDiterima"/>
+
+                            <TextView
+                                android:id="@+id/tv2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_9sdp"
+                                android:text="Konfirmasi Pembayaran Diterima"
+                                android:layout_marginLeft="@dimen/_18sdp"
+                                android:layout_below="@+id/tv1"
+                                android:layout_marginTop="@dimen/_16sdp"
+                                android:layout_alignLeft="@+id/imgOrderDiterima"/>
+
+                            <TextView
+                                android:id="@+id/tv3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_9sdp"
+                                android:text="Pengiriman"
+                                android:layout_marginLeft="@dimen/_18sdp"
+                                android:layout_below="@+id/tv2"
+                                android:layout_marginTop="@dimen/_16sdp"
+                                android:layout_alignLeft="@+id/imgOrderDiterima"/>
+
+                            <TextView
+                                android:id="@+id/tv4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:textColor="@color/black"
+                                android:textSize="@dimen/_9sdp"
+                                android:text="Terkirim"
+                                android:layout_marginLeft="@dimen/_18sdp"
+                                android:layout_below="@+id/tv3"
+                                android:layout_marginTop="@dimen/_16sdp"
+                                android:layout_alignLeft="@+id/imgOrderDiterima"/>
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+                </com.github.aakira.expandablelayout.ExpandableRelativeLayout>
+
+
+                <View android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_height="3dp"
+                    android:background="#f5f0f0"
+                    android:id="@+id/view"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

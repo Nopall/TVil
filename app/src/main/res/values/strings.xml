@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Teh Villa</string>
+    <string name="selamat_datang">SELAMAT\nDATANG</string>
+    <string name="text_intro1">Teh Villa adalah produk teh jenis\n"teh hitam", Berdiri di Surabaya, merupakan\nbisnis keluarga, dan mulai beroprasi sebagai\nhome industry pada bulan juli 1981.</string>
+    <string name="judul_intro2">APA SIH\nTEH HITAM ITU?</string>
+    <string name="text_intro2">Teh merupakan minuman kedua yang paling\nbanyak dikonsumsi di dunia setelah air. Teh\nhitam adalah minuman yang terbuat dari\nseduhan daun, pucuk daun atau tangkai\ndaun yang dikeringkan dari tanaman teh hitam\n(Camellia sinensis).</string>
+    <string name="judul_intro3">MANFAAT\nTEH HITAM</string>
+    <string name="text_intro3">Dapat menurunkan kadar kolesterol jahat,\nmenurunkan resiko penyakit jantung,\nmengurangi masalah kardiovaskular,\nmenghambat pertumbuhan sel-sel\nkanker, Meningkatkan sistem\nkekebalan tubuh, Membantu menurunkan\nberat badan, kesehatan tulang dan gigi</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="register"><u>Register</u></string>
+    <string name="verifikasi"><u>Kirim Ulang Kode Verifikasi</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="orderid">Order Id Order <font color="#FF0000">*</font></string>
+    <string name="api_key">7a2594cd-d6ff-440f-a950-f605342f55e4</string>
+
+    <string-array name="provinsi">
+        <item><font color="#000">Provinsi</font></item>
+        <item><font color="#000">Jawa Timur</font></item>
+        <item><font color="#000">Jawa Barat</font></item>
+        <item><font color="#000">Jawa Tengah</font></item>
+    </string-array>
+
+    <string name="inputText">
+    <html>
+      <p>The value of input is <font color='#00ff00'>positive</font> now.</p>
+    </html>
+    </string>
+
+    <string name="facebook_app_id">735359656623296</string>
+    <string name="signed_in_fmt">Signed in as: %s</string>
+
+    <style name="api_key">7a2594cd-d6ff-440f-a950-f605342f55e4</style>
+
+</resources>

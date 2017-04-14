@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e5343c9d19cb19ff55f6b268c7f3fe8c9d224f6f">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_2ca7533bcf7a94ecad2be6addcd8edefffda5478/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="eb0d830e3eabb9deb9ec44869cf7ac7ea1ad794c">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-10.0.1_fe2a87eb1648b56948e83e5f25f46361a135dec9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.3.2/d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27/picasso-2.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d6b7f0093cec6c9faf65dbfd6a6a345d0ed25e27">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.3.2_aa7b4f34a371ac4ed6e9431db646dc1bc5cbc8d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/universal-image-loader-1.9.3_b160a69060e51d24651930380a71c603614f4f3a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.mikepenz/google-material-typeface/2.2.0.3.original/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8f635f53387085220f02014589f50b14d6efb3ec">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-google-material-typeface-2.2.0.3.original_9427d53b519c03f6848bb85e85f2e4a9821c1276/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/rxjava-1.1.6_87cc7c3c54ca016129cfdebbe7fef8f3749a8788/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/uk.co.chrisjenx/calligraphy/2.2.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ebcb0bcf52fab7c586f39717f7cb8de91748b1b1">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/uk.co.chrisjenx-calligraphy-2.2.0_c01eb0a7c811099968d2fd66a68413b06c9f5f81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.onesignal/OneSignal/3.4.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0e6ecaea1e8dd0d0aaecd71034334ea288d2dfeb">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.onesignal-OneSignal-3.4.3_9b578cebd008a29407038cb3109fff74c6081353/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f83b00041ecfba705603fec40363416c7de69719">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_0d3704e075b0adf8c690df958f454a02c07b59f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6bb5d347ebc0c6ef3c83a905222a688da5d2f7b4">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-10.0.1_6c1b41857159cb257fef98be22af5b61d90133b4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="433f4d6aa5f21f19552afe0e6c5eff0fedba73ad">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-10.0.1_7ea65a5aa1e59e0e88aa176be305863e6953aa66/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_5ea65b9273e422f5e50982be0d39e23a2406bb2d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="297d4bcf6ed4e747a1bf7d0d094a2d911a8d3a8e">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.0.1_634725a00318a527cddd9902366281ca51d1bb72/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.edmodo/cropper/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="66467578c335f7a6babdbe01f7f0ac63230f578e">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.edmodo-cropper-1.0.1_592fe4749b0471e9daa486608bd378132e7034fa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.mikepenz/fontawesome-typeface/4.7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="1b7b769c2e819c4e6144da34c9df4ac0f56cf450">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-fontawesome-typeface-4.7.0.0_9fcbf63dc2e1e887caf0ea09ea48105df655f90d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6a1479afe9f1b3645e1cd9a87318976893472818">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.0.1_057b09925cefc0fe67fa36a68214b2e2a557e261/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.1.4_86b46458d9d7173c691d42c9499915a044299798/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics/2.6.7/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="823bcb877cb90eb4ecbbc050d822ff5d84bb2db2">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-2.6.7_c76bb6075fce9d77d2a802197b6d3267e53976a2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/8.4.0/ea392375cf9ff59234a82e7928a204215ccc98cd/butterknife-annotations-8.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="ea392375cf9ff59234a82e7928a204215ccc98cd">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-annotations-8.4.0_2d14c2e2512a740f1fae64d84844f81ce255923c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/transition/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c1b6ab157e8e12cb08b9ee82bb5e3c5d22632eb3">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.0.1_8bc6c1e4834d022d9d254be6a771c9acebff3dde/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.mikepenz/materialize/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="84c98924eff3106f306c3e233cc2e6d84744f518">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-materialize-1.0.0_06449910d0adaebae7942e0e11448b3ad3c1c50c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.intuit.ssp/ssp-android/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a5c72b155537d41cadf3ef338804bf91fa34759e">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.intuit.ssp-ssp-android-1.0.4_72b6f326526f9a8a1185b28a6d6831da77144b05/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="486371f97baad8e607f332f20fee1d3dd00a731a">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-10.0.1_03a921fefacaab415d95fff594ac628f9101e025/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="51eba4a4dd73044f90a9d58dd7ca34adbebfcf4e">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.0.1_7802974ff0f6cd2ce1451be6610f0f4fe4683050/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c0bd6ffb002a85b5e7cad29f8558d1cc59539679">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_736d9ad8acaffd3b4d4c8831000777b3a0dbf9a6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6116e0e7069de7fc259aac8e08b84f32c2038231">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-10.0.1_8f8df0fa32211119d6b033c95773277562942619/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.0/c4ba5371a29ac9b2ad6129b1d39ea38750043eff/gson-2.8.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c4ba5371a29ac9b2ad6129b1d39ea38750043eff">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.8.0_deba6134488975c617b72f4f069f09a4a0fc37df/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.0.2/a60c039ba54c73d1133b72178e1b04133c73d13d/adapter-rxjava-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a60c039ba54c73d1133b72178e1b04133c73d13d">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/adapter-rxjava-2.0.2_7aac627bdec78a7e78e434bf3f0f526eb133710b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.mikepenz/fastadapter/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7118aee70be2579da7bc488325e2c2ba9f668514">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-fastadapter-2.1.0_ace7a7a6b3f7b29bc982a5ac42fe59b38048f464/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.github.nguyenhoanglam/ImagePicker/1.1.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f64eb65137748aa084d8e746b08911102b82a25d">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.nguyenhoanglam-ImagePicker-1.1.3_211395717ca089cc5029e50ce31ee38a25e7be01/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.github.markomilos/paginate/0.5.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="239bbc360f222b90822c6f85f6ff203d57763382">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.markomilos-paginate-0.5.1_3c1cfff3d9e873d99c5e03cb3499777cf1f93369/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b64dd5f01bc37de289f90fd59299b0c76d119611">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getkeepsafe.relinker-relinker-1.2.2_8481f7f7f512834b09c5ee805f17f0ac39632603/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/crashlytics-core/2.3.16/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="844efef744581e604ea77683555271ebbd61d871">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-crashlytics-core-2.3.16_7c3f68d56cfcb37fbe52a22d1fee69ac9d223d52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.github.aakira/expandable-layout/1.6.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3cef25b344d6893e5e2d9b1ae38d180955e9d3ef">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.aakira-expandable-layout-1.6.0_9c52b5348a4fb667d5c4c97be2b481888b99aee1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e2185aff89caeb337b1ffc36d5e525d8318e7cfe">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-10.0.1_d383e3ab43f6c72235f2a29f7fa78cde18bfe8e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.jakewharton/butterknife/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a07818a1ecabdb149998823429cce555af4b9cba">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.jakewharton-butterknife-8.4.0_be0a5bb18049b3046fbb294c59520497a42ca069/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/2.3.0/5c43618ae2e514637c58474e9e9663c8f054b72f/realm-annotations-2.3.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5c43618ae2e514637c58474e9e9663c8f054b72f">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-2.3.0_24be6449ad56f43888a13adf6d31e33c0a1186f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d422345ededf1d0d7cd359b96a26906b0bd95c9d">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_4740a436b31937f6dbb5e39620fc0f277a1cbe00/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b24e1c688744078e1fa833ffadf696794761bbe5">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.0.1_d9b75d625338d9405fcbc887a657bbb997bb8779/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_72aaaf33e832ad5ea4dd8bedefda819685a2765b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.mikepenz/iconics-core/2.8.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="dcac7435781db56e25ab17c3f662227c517fc327">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-iconics-core-2.8.0_5ff226c345353df0c2c03b5c221d6a885e5d2314/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/retrofit-2.1.0_92d6bdbebf36cd1d88cd4dee0902fe8dd225e296/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/answers/1.3.12/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5c812ad0773ab307151802099a33575fa7bb270b">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-answers-1.3.12_bfa3f7e6f8bff06c1f5c0f5fd8b587b42fd65de3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="bc7e99e8d0fc279a05aa91378530f467ad62d443">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.0.1_2f3aab9963597aad68b61ffc7da6f68d11897046/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/io.realm/realm-android-library/2.3.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d483779dc728392fefecb9a9650d01bac9e04d3b">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.realm-realm-android-library-2.3.0_cc2837145faa5b8b400113bab4c67bb6c7140ce2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_706abdf690ad0cdb47ab51d72aaf17bf696e52c1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3af8cc51ef7088e56f132780da8c0bd858b6a6ad">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_dd3a4620dc8f7d2d5e5a643ce03d57a68ca1fac5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.4.1/381fc1096ba65040d8e80ea43b2e1d9bad02345e/logging-interceptor-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="381fc1096ba65040d8e80ea43b2e1d9bad02345e">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/logging-interceptor-3.4.1_0fe23398a485ccc032fa221558e14e21c0cb43e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c14f0c89f28cf782e42581ab0aba5f63af39b3d2">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-10.0.1_e99c41a8f3c7f00841f40f96c60ea133f15ad5db/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/24.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5e6490573cd2cc8018417f60ddd251138b6ed61">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-cardview-v7-24.2.1_88f1219fb48deaee74fdd847f82829c674bf8bca/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.github.pwittchen/infinitescroll/0.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d8ad96d5592c2e531701da3dbab6f9e485f34ab7">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.pwittchen-infinitescroll-0.0.1_868a324c43aed81cda2addf79fbb3e992326e973/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/io.reactivex/rxandroid/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.reactivex-rxandroid-1.2.1_93bd9c2acdc53318de9af77a43113cbc0836674c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/cz.kinst.jakub/stateful-layout/1.1.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3a2a5846de3ea16ee2b100daaa9b8b2e444fc4d8">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/cz.kinst.jakub-stateful-layout-1.1.5_6f2211af57915812bdd2903d532cb365423af6ed/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e96c6974cf924e7ee3b230e6847d5731423388c9">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-10.0.1_c847ac65e4bcbd69d38eddf99e6185e950504a28/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="26c6eef571592c91f29e56fda0bac73321de0c92">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.0.1_56965e317c4d5682418aa2a7a7b46d7f9b899f30/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="44a694d4095be84c2888764b1f7256b385c030ad">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-10.0.1_b8c40cedb6896de5282f53151470cb0dbf791bd0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/design/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="3b236883e0df6002cabb01ce57d00a5b1e5de610">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.0.1_b6d0ef5988cf663f4fec55c6434439eeec0b2b2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.0.1/support-annotations-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a09194311f8f89c3e6db09d79f50897a889d615e">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.0.1_0a16863cd94366eb8361acd221c0089b34a7d7f2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.0.2/f8d87f15b94b8d74e7ccf61d7eedb558811cdb30/converter-gson-2.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f8d87f15b94b8d74e7ccf61d7eedb558811cdb30">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/converter-gson-2.0.2_78380da1d9dd199c950d58f0cda8c1628f1342de/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.9.0/f824591a0016efbaeddb8300bee54832a1398cfa/okio-1.9.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/okio-1.9.0_b9fb754f986f084045e0f5652f169d0ff106b547/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6578f4671c40c1285fddd0551080813dc2ef0577">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_72c422ea4a7ef799f267e80f2c9be69bc7051098/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.4.1/c7c4f9e35c2fd5900da24f9872e3971801f08ce0/okhttp-3.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/okhttp-3.4.1_f8eb22aae21f7e916baff3a4f5338fcbdf156b11/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.intuit.sdp/sdp-android/1.0.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="11262f887015dc774ff36eb66698308df0a376d1">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.intuit.sdp-sdp-android-1.0.4_d3c03e242e9662489f81170bedc53307e1e36252/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.github.vlonjatg/progress-activity/v2.0.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fe6d5b8a1755a9ce6171c5001204c1feb7a3b231">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.vlonjatg-progress-activity-v2.0.3_02ca1d124b22976dbd7ff181d919348f4f7e6756/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/libs/internal_impl-25.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="c5b7145fb34779b6639147b8f2f8dd77c0db771b">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-25.0.1_d5440b6cbdc6a0ef54af7a1d012ddb927d85bcb7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.pixplicity.easyprefs/library/1.8.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d3b394848f31ac12c50e0227af889247943b11b2">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.pixplicity.easyprefs-library-1.8.1_4e730090cb1c693059f61cbc66ddc6cc9ec12a4a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8308ed003522a2ee8958311afcc4cfd0470377cd">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-10.0.1_da7de7555b4e7f963bcaa95b7b24978b08eb8555/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-io/1.3.2/b6dde38349ba9bb5e6ea6320531eae969985dae5/commons-io-1.3.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b6dde38349ba9bb5e6ea6320531eae969985dae5">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-io-1.3.2_f8b7c72225daaaf94437fc41e566040d8e127404/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.0.1_b450fea11e39abc22bacf41b30cf63c8f86c0cf9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_447d53edc80fc850be0655ab9337114db6e5b39f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="00d4c8eebf2b681073c72a26bd0849549e51c7cb">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.0.1_752c1fd4ad210ea4c823d24a4a46ffabca2b429a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="f7ac4b327fdb9e2ee386f5adc46164927658de4b">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.0.1_ff5487745f00950bb1b370e6de87c35828dc03e4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.mikepenz/material-design-iconic-typeface/2.2.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9bd93b592576bd85b8329dcf1ecea2b05d3ba2fd">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-material-design-iconic-typeface-2.2.0.2_1406c3a602347e7adb6157966a24133d1edda8bb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.1.0_7e4bc829a77da96570c2e43bab0dd36fc6f52ac4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_556ed3b1cc422aae81faea2a94d3357f67268b78/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.github.k0shk0sh/PermissionHelper/1.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09e4aab8ffe4044305a65f409f2c60af92445826">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.k0shk0sh-PermissionHelper-1.1.0_d794f5311c5d99e58b047cd8c7372a93b9fffc92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_83195c4c38a47c815904b76fd9e173c1851b14bc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.daimajia.slider/library/1.1.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="08962e03b6a954c65d4944e092879b7f5ee1208d">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.slider-library-1.1.5_146ac8700d9f8c3213aec2470cf63f9c92385f12/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="772bed2d992b67b9d0327f766cc95cd63031dcd3">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.0.1_8521b04cce6b55fe95ce278fe1ae48bdb9bcc1f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/io.fabric.sdk.android/fabric/1.3.16/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="263c1c941f603469ecbaf8745f7b2d18ae85c5c0">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.fabric.sdk.android-fabric-1.3.16_79e13123c3dde6a2541074de66fb9bbfffa904d9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.mikepenz/actionitembadge/3.3.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="41f6c67ba35cee00eedb662516ac7a30e2fcf6cc">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mikepenz-actionitembadge-3.3.1_5dd5929ff74428fde53ad31af1ab05847a8ad168/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.crashlytics.sdk.android/beta/1.2.4/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8c8243677105d9c78cfbf553b55e256b3d4bea39">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.crashlytics.sdk.android-beta-1.2.4_687df5b8d901f21cd67591b679c74fb44720bb49/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/4.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0f254ec13d6671680482d2218f01ecf14dfa93e6">
+        <dex dex="/Users/Home/AndroidStudioProjects/TehVilla/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-4.0.0_271fcd84fb6c6c9d7294554e9c7d3ab8abf40ffa/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="@dimen/_3sdp">
+    <ImageView
+        android:id="@+id/imgProduk"
+        android:src="@drawable/ab_picker_video"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp" />
+    <TextView
+        android:id="@+id/txtJudul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi Produk"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="@dimen/_9sdp"/>
+</LinearLayout>

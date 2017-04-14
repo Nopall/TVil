@@ -1,0 +1,66 @@
+<android.support.v7.widget.CardView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    app:cardBackgroundColor="#FFF"
+    app:cardElevation="@dimen/_8sdp"
+    android:elevation="@dimen/_8sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFF"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/poster"
+            android:layout_width="90dp"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingPrefix"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/judul"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:textSize="20sp"
+                fontPath="fonts/calibri_bold.ttf"
+                android:textColor="@color/material_drawer_background" />
+
+            <TextView
+                android:id="@+id/keterangan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penjelasan : Gelas Sablon\nUkuran : 13 x 7,3 cm"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_11sdp"
+                android:textColor="@color/material_drawer_secondary_text" />
+
+            <TextView
+                android:id="@+id/harga"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IDR 60.000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                fontPath="fonts/calibri_bold.ttf"
+                android:padding="@dimen/_2sdp"
+                android:textSize="@dimen/_14sdp"
+                android:textColor="@color/material_drawer_background" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

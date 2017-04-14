@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_tentang_kami"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tehvilla.apps.tehvilla.TentangKamiActivity">
+
+    <com.daimajia.slider.library.SliderLayout
+        android:id="@+id/slider"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_467sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.daimajia.slider.library.Indicators.PagerIndicator
+        android:id="@+id/custom_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_11sdp"
+        android:layout_marginBottom="@dimen/_70sdp"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        custom:selected_color="#7c7c7c"
+        custom:unselected_color="#cccccc"
+        custom:shape="oval"
+        custom:selected_padding_left="@dimen/_3sdp"
+        custom:selected_padding_right="@dimen/_3sdp"
+        custom:unselected_padding_left="@dimen/_3sdp"
+        custom:unselected_padding_right="@dimen/_3sdp"
+        custom:selected_width="@dimen/_8sdp"
+        custom:selected_height="@dimen/_8sdp"
+        custom:unselected_width="@dimen/_6sdp"
+        custom:unselected_height="@dimen/_6sdp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_55sdp"
+        android:weightSum="2"
+        android:gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="PREVIOUS"
+            android:textColor="#000"
+            android:background="@drawable/btn_intro"/>
+        <Button
+            android:id="@+id/btn_prev"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="NEXT"
+            android:textColor="#000"
+            android:background="@drawable/btn_intro"/>
+    </LinearLayout>
+
+</RelativeLayout>

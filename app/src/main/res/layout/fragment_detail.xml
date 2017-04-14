@@ -1,0 +1,243 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tehvilla.apps.tehvilla.DetailFragment">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar3"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/material_drawer_background">
+        <ImageButton
+            android:id="@+id/kembali"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:background="@color/material_drawer_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/icon_back"/>
+        <TextView
+            android:layout_marginLeft="@dimen/_70sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_16sdp"
+            android:gravity="center"
+            android:text="DETAIL PRODUK"/>
+    </android.support.v7.widget.Toolbar>
+
+    <!-- TODO: Update blank fragment layout -->
+    <com.vlonjatg.progressactivity.ProgressRelativeLayout
+        android:id="@+id/progressActivity23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar3">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/toolbar3"
+        android:background="#FFF">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvDiskon"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_5sdp"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="DISCOUNT 20 %"
+                android:textSize="@dimen/_9ssp"
+                android:background="@drawable/ic_diskon"
+                android:textColor="#FFF"/>
+
+            <com.daimajia.slider.library.SliderLayout
+                android:paddingLeft="@dimen/_35sdp"
+                android:paddingRight="@dimen/_35sdp"
+                android:paddingTop="@dimen/_1sdp"
+                android:id="@+id/sliderDetail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_200sdp" />
+            <com.daimajia.slider.library.Indicators.PagerIndicator
+                android:id="@+id/custom_indicator"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_11sdp"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:gravity="center"
+                custom:selected_color="#7c7c7c"
+                custom:unselected_color="#cccccc"
+                custom:shape="oval"
+                custom:selected_padding_left="@dimen/_3sdp"
+                custom:selected_padding_right="@dimen/_3sdp"
+                custom:unselected_padding_left="@dimen/_3sdp"
+                custom:unselected_padding_right="@dimen/_3sdp"
+                custom:selected_width="@dimen/_8sdp"
+                custom:selected_height="@dimen/_8sdp"
+                custom:unselected_width="@dimen/_6sdp"
+                custom:unselected_height="@dimen/_6sdp"
+                />
+
+            <RelativeLayout
+                android:id="@+id/Relativelayout13"
+                tools:ignore="MissingPrefix"
+                android:layout_width="match_parent"
+                android:paddingLeft="@dimen/_25sdp"
+                android:paddingRight="@dimen/_25sdp"
+                android:layout_height="0dp"
+                android:layout_weight="5">
+
+                <TextView
+                    android:id="@+id/dJudul"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Teh Premiun Black Tea"
+                    android:textColor="#000"
+                    fontPath="fonts/calibri_bold.ttf"
+                    android:textSize="@dimen/_15ssp" />
+
+                <View
+                    android:id="@+id/View_garis"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_alignTop="@+id/dHarga"
+                    android:layout_marginTop="@dimen/_6sdp"
+                    android:layout_marginLeft="@dimen/_2sdp"
+                    android:layout_height="3dp"
+                    android:background="@android:color/holo_red_dark" />
+
+                <TextView
+                    android:id="@+id/dHarga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dJudul"
+                    android:text="IDR 200.000"
+                    android:textColor="#000"
+                    fontPath="fonts/calibri_bold.ttf"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <TextView
+                    android:id="@+id/dHargaAkhir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/dJudul"
+                    android:layout_toRightOf="@+id/dHarga"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:text=""
+                    android:textColor="#000"
+                    fontPath="fonts/calibri_bold.ttf"
+                    android:textSize="@dimen/_12ssp"/>
+
+                <View
+                    android:id="@+id/Viewgaris"
+                    android:layout_below="@+id/dHarga"
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_height="2dp"
+                    android:background="@color/material_drawer_secondary_text"/>
+
+                <TextView
+                    android:id="@+id/dDeskripsi"
+                    android:layout_below="@+id/Viewgaris"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="@color/material_drawer_secondary_text"
+                    android:text="Jenis : Teh Curah, Murni kualitas eksport\nBerat : 200 gr\nKemasan : Kaleng kertas"/>
+
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/txtJumlah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jumlah Produk"
+                android:layout_above="@+id/dDeskripsi"
+                android:textColor="@color/material_drawer_secondary_text"
+                android:textAlignment="center"/>
+
+            <RelativeLayout
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/btn_Kurang"
+                    android:background="@drawable/btn_kurang"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/_1sdp"
+                    android:id="@+id/tvJumlah"
+                    android:layout_width="wrap_content"
+                    android:textSize="@dimen/_13ssp"
+                    android:layout_height="@dimen/_20sdp"
+                    android:textColor="#000"
+                    android:textAlignment="center"
+                    android:layout_toRightOf="@+id/btn_Kurang"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:text="1"/>
+
+                <ImageButton
+                    android:id="@+id/btn_Tambah"
+                    android:layout_toRightOf="@+id/tvJumlah"
+                    android:background="@drawable/btn_tambah"
+                    android:layout_width="@dimen/_20sdp"
+                    android:layout_height="@dimen/_20sdp"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/RelativeLayout12"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/_1sdp"
+                android:layout_width="wrap_content"
+                android:layout_marginBottom="@dimen/_21sdp"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/btnBeli"
+                    android:layout_width="@dimen/_100sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:textSize="@dimen/_8ssp"
+                    android:textAlignment="center"
+                    android:text="Beli Produk Sekarang"
+                    android:textColor="@color/material_drawer_secondary_text"
+                    android:background="@drawable/button_birudetail"/>
+
+                <Button
+                    android:id="@+id/tambahKeKeranjang"
+                    android:layout_toRightOf="@+id/btnBeli"
+                    android:layout_width="@dimen/_105sdp"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_height="@dimen/_27sdp"
+                    android:textSize="@dimen/_8ssp"
+                    android:textAlignment="center"
+                    android:textColor="@color/material_drawer_secondary_text"
+                    android:text="+Tambah Ke Keranjang"
+                    android:background="@drawable/button_birudetail"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    </com.vlonjatg.progressactivity.ProgressRelativeLayout>
+
+</RelativeLayout>

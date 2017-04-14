@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_30sdp"
+    android:background="#FFF"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:src="@drawable/icon_tehvilla"/>
+
+    <EditText
+        android:id="@+id/loginNoTelepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:padding="@dimen/_10sdp"
+        android:background="@drawable/bgedittext2"
+        android:hint="Nomor Telepon"
+        android:inputType="phone"
+        android:drawablePadding="@dimen/_8sdp"
+        android:drawableLeft="@mipmap/icon_nomer_telepon"
+        android:textColorHint="@color/material_drawer_secondary_text"
+        android:textColor="#000"/>
+
+    <EditText
+        android:id="@+id/loginPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_8sdp"
+        android:background="@drawable/bgedittext2"
+        android:hint="Kata Sandi"
+        android:padding="@dimen/_10sdp"
+        android:inputType="textPassword"
+        android:drawablePadding="@dimen/_8sdp"
+        android:drawableLeft="@mipmap/icon_kata_sandi"
+        android:textColorHint="@color/material_drawer_secondary_text"
+        android:textColor="#000"/>
+
+    <TextView
+        android:id="@+id/peringatan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF0000"
+        android:textSize="@dimen/_8sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:textStyle="bold"
+        android:text=""/>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textColor="#fff"
+        android:text="Login"
+        android:background="@drawable/button_merah"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:textColor="@color/material_drawer_secondary_text"
+        android:textAlignment="center"
+        android:text="Atau"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btnFacebook"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/_35sdp"-->
+        <!--android:layout_marginBottom="@dimen/_10sdp"-->
+        <!--android:background="@drawable/button_fb"/>-->
+
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp"
+        android:background="@drawable/button_fb"
+        android:layout_centerInParent="true"
+        />
+
+    <!--<Button-->
+        <!--android:id="@+id/sign_out_button"-->
+        <!--android:visibility="invisible"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/_35sdp"-->
+        <!--android:layout_marginBottom="@dimen/_10sdp"-->
+        <!--android:background="@drawable/button_google"/>-->
+
+    <Button
+        android:id="@+id/sign_in_button"
+        android:background="@drawable/btngoogle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_35sdp" />
+
+    <LinearLayout
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_50sdp"
+            android:textAlignment="center"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:textColor="@color/material_drawer_secondary_text"
+            android:textSize="@dimen/_12sdp"
+            android:text="Belum memiliki Akun?, "/>
+
+        <TextView
+            android:id="@+id/tvRegister"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:textColor="@color/material_drawer_secondary_text"
+            android:textAlignment="center"
+            android:onClick="onClick"
+            android:textSize="@dimen/_12sdp"
+            android:text="@string/register"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "212861812736",
+    "project_id": "tehvilla-157705"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:212861812736:android:8be37984b3490cfc",
+        "android_client_info": {
+          "package_name": "com.tehvilla.apps.tehvilla"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "212861812736-epclht7ulli722c9t0tpu3lcc1ii3232.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1rGOcncMP0zXq_qARSGQRJO0nkXMF70E"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

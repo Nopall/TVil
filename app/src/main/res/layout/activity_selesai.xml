@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_bantuan"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context="com.tehvilla.apps.tehvilla.BantuanActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/material_drawer_background"
+        app:title="SELESAI"
+        app:titleTextColor="#fff"
+        app:titleMarginStart="@dimen/_118sdp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingPrefix">
+
+        <ImageView
+            android:layout_marginTop="@dimen/_50sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_70sdp"
+            android:layout_gravity="center"
+            android:src="@mipmap/icon_verifikasi"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            fontPath="fonts/calibri_bold.ttf"
+            android:text="Selamat Pesanan Anda\nSudah Kami Terima"
+            android:textColor="#000"
+            android:textSize="@dimen/_16sdp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_18sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Untuk tahap selanjutnya silahkan melakukan\n\npembayaran melalui cara yang sudah\n\nAnda pilih dan lakukan konfirmasi pembayaran"
+            android:textColor="@color/material_drawer_secondary_text"
+            android:textSize="@dimen/_9sdp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btnKonfirmPembayaran"
+            android:layout_marginTop="@dimen/_60sdp"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:text="Konfirmasi Pembayaran"
+            android:background="@drawable/button_merah"/>
+
+        <Button
+            android:id="@+id/btnUtama"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:text="Kembali ke Halaman Utama"
+            android:background="@drawable/button_merah"/>
+
+    </LinearLayout>
+</LinearLayout>

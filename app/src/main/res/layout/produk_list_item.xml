@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="-10dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#FFF"
+        app:cardElevation="@dimen/_8sdp"
+        android:elevation="@dimen/_8sdp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:id="@+id/rltv"
+            android:paddingTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_1sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_110sdp"
+            android:background="#FFF">
+
+            <ImageView
+                android:layout_marginLeft="@dimen/_5sdp"
+                android:layout_marginRight="@dimen/_7sdp"
+                android:id="@+id/poster"
+                android:layout_below="@+id/tvDiskon"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="@dimen/_75sdp"/>
+
+            <TextView
+                android:id="@+id/tvDiskon"
+                android:paddingTop="@dimen/_5sdp"
+                android:paddingLeft="@dimen/_4sdp"
+                android:layout_width="@dimen/_75sdp"
+                android:layout_height="@dimen/_20sdp"
+                android:text="DISCOUNT 20 %"
+                android:textSize="@dimen/_9ssp"
+                android:background="@drawable/ic_diskon"
+                android:textColor="#FFF"/>
+
+            <LinearLayout
+                tools:ignore="MissingPrefix"
+                android:id="@+id/linearlayout1"
+                android:layout_width="@dimen/_165sdp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_21sdp"
+                android:layout_marginStart="@dimen/_21sdp"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/tvDiskon"
+                android:layout_toEndOf="@+id/tvDiskon">
+
+                <TextView
+                    android:id="@+id/judul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Medium Text"
+                    android:textStyle="bold"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="@dimen/_12sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_13ssp"
+                    fontPath="fonts/calibri_bold.ttf"
+                    android:textColor="@color/material_drawer_background" />
+
+                <TextView
+                    android:id="@+id/keterangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Penjelasan : Gelas Sablon\nUkuran : 13 x 7,3 cm"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:padding="@dimen/_2sdp"
+                    android:textSize="@dimen/_8ssp"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <RelativeLayout
+                tools:ignore="MissingPrefix"
+                android:id="@+id/linearlayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/poster"
+                android:layout_marginBottom="@dimen/_20sdp"
+                android:layout_alignParentBottom="true"
+                android:orientation="horizontal">
+
+                <View
+                    android:id="@+id/View_Strike"
+                    android:layout_width="@dimen/_49sdp"
+                    android:layout_alignTop="@+id/harga"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_19sdp"
+                    android:layout_height="3dp"
+                    android:background="@android:color/holo_red_dark" />
+
+                <TextView
+                    android:id="@+id/harga"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IDR 60.000"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginLeft="@dimen/_19sdp"
+                    fontPath="fonts/calibri_bold.ttf"
+                    android:textSize="@dimen/_10ssp"
+                    android:textColor="@color/material_drawer_background" />
+
+
+                <TextView
+                    android:id="@+id/hargaDiskon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/harga"
+                    android:text=""
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:layout_marginLeft="@dimen/_9sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:textSize="@dimen/_10ssp"
+                    android:textStyle="bold"
+                    fontPath="fonts/calibri_bold.ttf"
+                    android:textColor="@color/material_drawer_background" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

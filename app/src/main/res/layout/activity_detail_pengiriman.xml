@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:background="@color/material_drawer_background"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="@color/material_drawer_background">
+
+            <ImageButton
+                android:id="@+id/btnKembali"
+                android:layout_width="@dimen/_28sdp"
+                android:layout_height="@dimen/_32sdp"
+                android:src="@mipmap/icon_back"
+                android:background="@color/material_drawer_background"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="DETAIL PEMBAYARAN"
+                android:textSize="@dimen/_16sdp"
+                android:textColor="#FFF"
+                android:paddingLeft="@dimen/_43sdp"/>
+
+        </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:layout_marginTop="@dimen/_3sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_43sdp"
+            android:src="@drawable/ic_stepcod"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+            <LinearLayout
+                android:background="@drawable/bg_cod"
+                android:paddingLeft="@dimen/_15sdp"
+                android:paddingRight="@dimen/_15sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_133sdp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:visibility="gone"
+                    android:id="@+id/btnUbahCod"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_marginLeft="@dimen/_15sdp"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_height="@dimen/_120sdp"
+                    android:background="@drawable/btn_cod"/>
+
+                <ImageButton
+                    android:id="@+id/btnUbahTfBank"
+                    android:layout_marginTop="@dimen/_8sdp"
+                    android:layout_width="@dimen/_130sdp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="@dimen/_120sdp"
+                    android:background="@drawable/btn_tfbank"/>
+
+            </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:id="@+id/scrollviewcod"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout android:id="@+id/halamanCod"
+               android:paddingLeft="@dimen/_40sdp"
+               android:paddingRight="@dimen/_40sdp"
+               android:paddingTop="@dimen/_10sdp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:background="#FFF"
+                android:visibility="gone"
+               android:orientation="vertical">
+
+           <TextView
+               android:id="@+id/tvTglPengiriman"
+               android:layout_marginBottom="@dimen/_10sdp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/material_drawer_secondary_text"
+               android:text="Tanggal Pengiriman *"/>
+
+           <EditText
+               android:id="@+id/etTglPengiriman"
+               android:layout_marginBottom="@dimen/_10sdp"
+               android:padding="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:inputType="none"
+               android:textColor="@color/black"
+               android:background="@drawable/bgedittext">
+               <requestFocus />
+           </EditText>
+
+           <TextView
+               android:id="@+id/tvWaktuPengiriman"
+               android:layout_marginBottom="@dimen/_10sdp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/material_drawer_secondary_text"
+               android:text="Waktu Pengiriman *"/>
+
+           <Spinner
+               android:id="@+id/etWaktuPengiriman"
+               android:layout_marginBottom="@dimen/_10sdp"
+               android:padding="@dimen/_5sdp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:background="@drawable/bgedittext"/>
+
+           <TextView
+               android:layout_marginBottom="@dimen/_1sdp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:textColor="#FF0000"
+               android:textSize="@dimen/_10sdp"
+               android:text="* Wajib diisi"/>
+
+            <TextView
+                android:layout_marginBottom="@dimen/_1sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#000"
+                android:textSize="@dimen/_10sdp"
+                android:text="Note: Pengiriman barang kami akan usahakan sesuai\n dengan waktu yang anda pilih, bergantung pada\n situasi dan kondisi dalam perjalanan"/>
+
+                <Button
+                    android:id="@+id/btnLanjutCod"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="SELANJUTNYA"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@drawable/button_merah"/>
+       </LinearLayout>
+        </ScrollView>
+
+        <ScrollView
+            android:id="@+id/scrollviewtf"
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/halamanTfBank"
+                android:visibility="visible"
+                android:paddingLeft="@dimen/_40sdp"
+                android:paddingRight="@dimen/_40sdp"
+                android:paddingTop="@dimen/_20sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_170sdp"
+                android:background="#FFF"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:src="@drawable/bca"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#000"
+                    android:textSize="@dimen/_18sdp"
+                    android:text="Transfer"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/material_drawer_secondary_text"
+                    android:text="Jenis Bank\t\tBCA"/>
+
+                <TextView
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/material_drawer_secondary_text"
+                    android:text="No. Rekening\t\t429119201"/>
+
+
+                <TextView
+                    android:layout_marginBottom="@dimen/_8sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/material_drawer_secondary_text"
+                    android:text="Nama Rekening\t\tTeh Villa"/>
+
+                <Button
+                    android:id="@+id/btnLanjutTf"
+                    android:layout_gravity="center"
+                    android:layout_width="@dimen/_150sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:text="SELANJUTNYA"
+                    android:textColor="#fff"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:background="@drawable/button_merah"/>
+
+            </LinearLayout>
+        </ScrollView>
+    </RelativeLayout>
+
+        </LinearLayout>
+
+</LinearLayout>
