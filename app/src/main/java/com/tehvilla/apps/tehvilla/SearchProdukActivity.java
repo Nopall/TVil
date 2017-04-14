@@ -1,5 +1,6 @@
 package com.tehvilla.apps.tehvilla;
 
+import android.graphics.Color;
 import android.graphics.drawable.LayerDrawable;
 import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
@@ -20,6 +21,8 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.mikepenz.google_material_typeface_library.GoogleMaterial;
+import com.mikepenz.iconics.IconicsDrawable;
 import com.paginate.Paginate;
 import com.pixplicity.easyprefs.library.Prefs;
 import com.tehvilla.apps.tehvilla.adapters.ProdukAdapter;
@@ -115,6 +118,7 @@ public class SearchProdukActivity extends AppCompatActivity {
 
 
         setSupportActionBar(toolbarsearch);
+        getSupportActionBar().setHomeAsUpIndicator(new IconicsDrawable(this).icon(GoogleMaterial.Icon.gmd_arrow_back).color(Color.WHITE).actionBar());
         getSupportActionBar().setDefaultDisplayHomeAsUpEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         toolbarsearch.setNavigationOnClickListener(new View.OnClickListener() {

@@ -24,6 +24,7 @@
             android:layout_height="wrap_content"
             android:layout_marginRight="@dimen/_8sdp"
             android:textColorHint="#fff"
+            android:textColor="#fff"
             android:hint="Search"
             android:layout_gravity="right"/>
 

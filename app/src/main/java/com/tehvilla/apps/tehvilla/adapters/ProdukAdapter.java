@@ -88,7 +88,7 @@ public class ProdukAdapter extends RecyclerView.Adapter<ProdukAdapter.ViewHolder
         if (Html.fromHtml(pd.getDeskripsi()).length()<50){
             holder.keterangan.setText(Html.fromHtml(pd.getDeskripsi()));
         }else {
-            holder.keterangan.setText(Html.fromHtml(pd.getDeskripsi()).subSequence(0, 30)+"...");
+            holder.keterangan.setText(Html.fromHtml(pd.getDeskripsi()).subSequence(0, 55)+"...");
         }
         holder.txtTittle.setText(pd.getNama());
         Glide.with(context).load(pd.getGambar1()).centerCrop().into(holder.imageView);
